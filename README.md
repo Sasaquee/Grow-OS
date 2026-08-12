@@ -14,7 +14,7 @@ Documento único com arquitetura, orçamento, escolha das plantas, passo a passo
 
 ## Live
 
-🔗 _(cole aqui o link do GitHub Pages depois de ativar, algo como `https://SEU-USUARIO.github.io/grow-os/`)_
+🔗 https://sasaquee.github.io/Grow-OS/
 
 ## Estrutura
 
