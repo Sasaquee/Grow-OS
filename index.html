@@ -66,10 +66,9 @@
     border-bottom:1px solid var(--border-soft);
   }
   .nav__logo{
-    font-family:var(--mono);font-weight:700;font-size:15px;letter-spacing:.02em;
-    color:var(--text);display:flex;align-items:center;gap:8px;
+    display:flex;align-items:center;
   }
-  .nav__logo .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--accent);}
+  .nav__logo img{height:26px;width:auto;display:block;}
   .nav__links{display:none;gap:28px;font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-dim);}
   .nav__links a{text-decoration:none;transition:color .2s;}
   .nav__links a:hover{color:var(--accent);}
@@ -100,13 +99,6 @@
     padding:120px 0 80px;border-bottom:1px solid var(--border-soft);
     position:relative;overflow:hidden;
   }
-  .hero__banner{
-    display:inline-block;background:#fff;border-radius:14px;
-    padding:18px 26px;margin-bottom:36px;
-    box-shadow:0 12px 40px rgba(94,255,158,.12);
-  }
-  .hero__banner img{height:40px;width:auto;display:block;}
-  @media(min-width:640px){ .hero__banner img{height:52px;} }
   .hero__eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2);margin-bottom:22px;}
   .hero h1{
     font-family:var(--mono);font-weight:700;font-size:clamp(40px,8vw,86px);line-height:.98;
@@ -311,7 +303,7 @@
 <div class="rail"><div class="rail__fill" id="railFill"></div></div>
 
 <nav class="nav">
-  <div class="nav__logo"><span class="dot"></span>GROW/OS</div>
+  <div class="nav__logo"><img src="banner.png" alt="GROW/OS"></div>
   <div class="nav__links">
     <a href="#arquitetura">Arquitetura</a>
     <a href="#orcamento">Orçamento</a>
@@ -326,7 +318,6 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="hero__banner"><img src="banner.png" alt="GROW/OS"></div>
     <div class="hero__eyebrow">Projeto Maker · Cultivo Automatizado</div>
     <h1>GROW<span>/</span>OS</h1>
     <p>Um terrário 100% automático: sensores cuidam da umidade, uma câmera cuida da vigilância, e um dashboard cuida de você não precisar fazer nada. Guia completo, do orçamento à primeira folha nova.</p>
